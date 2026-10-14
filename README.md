@@ -1,13 +1,13 @@
 # Python Practice for Bioinformatics
 
-Mera Python learning repository. Main ek microbiologist hoon jo Bioinformatics (Genomics, NGS, Clinical & Microbial Bioinformatics) mein transition kar raha hoon.
+My Python learning repository. I am a microbiologist transitioning into bioinformatics (genomics, NGS, clinical and microbial bioinformatics).
 
-## Is repo mein kya hai
+## What's in this repo
 
-- Python basics ki practice lessons
-- **Biopython** se FASTA files parse karna (`SeqIO.parse`): record ID, description aur sequence length
-- GenBank files (`.gb`) parse karna aur features (gene, CDS) read karna
-- Chhoti scripts jo sequence data par kaam karti hain
+- Python basics practice lessons
+- Parsing FASTA files with **Biopython** (`SeqIO.parse`): record ID, description and sequence length
+- Parsing GenBank (`.gb`) files and reading features such as gene and CDS
+- Small scripts that work on sequence data
 
 ## Tools
 
@@ -15,7 +15,7 @@ Mera Python learning repository. Main ek microbiologist hoon jo Bioinformatics (
 - Biopython
 - Ubuntu Linux, VS Code, Git
 
-## Chalane ka tareeqa
+## How to run
 
 ```bash
 pip install biopython
@@ -23,14 +23,14 @@ cd lesson9
 python3 lesson10.py
 ```
 
-Note: script usi folder se chalayein jahan data file (jaise `cox1.fasta`) maujood ho.
+Note: run the script from the folder that contains the data file (for example `cox1.fasta`).
 
-## Aage ka plan
+## Roadmap
 
-- FASTA aur GenBank files ki zyada practice
-- GC content aur sequence statistics
-- AMR (antimicrobial resistance) se mutaliq analysis
-- RNA-seq data par R aur statistics
+- More practice with FASTA and GenBank files
+- GC content and sequence statistics
+- Antimicrobial resistance (AMR) related analysis
+- RNA-seq data analysis with R and statistics
 
 ## Author
 
