@@ -1,0 +1,101 @@
+LOCUS       AF143443                1569 bp    DNA     linear   BCT 26-JUL-2016
+DEFINITION  Leuconostoc mesenteroides plasmid pHY30 MesG (mesG) gene, partial
+            cds; and mesentericin B105 (mesB), MesH (mesH), and MesF (mesF)
+            genes, complete cds.
+ACCESSION   AF143443
+VERSION     AF143443.1
+KEYWORDS    .
+SOURCE      Leuconostoc mesenteroides
+  ORGANISM  Leuconostoc mesenteroides
+            Bacteria; Bacillati; Bacillota; Bacilli; Lactobacillales;
+            Lactobacillaceae; Leuconostoc.
+REFERENCE   1  (bases 1 to 1569)
+  AUTHORS   Hechard,Y., Berjeaud,J.M. and Cenatiempo,Y.
+  TITLE     Characterization of the mesB gene and expression of bacteriocins by
+            Leuconostoc mesenteroides Y105
+  JOURNAL   Curr. Microbiol. 39 (5), 265-269 (1999)
+   PUBMED   10489435
+REFERENCE   2  (bases 1 to 1569)
+  AUTHORS   Hechard,Y., Berjeaud,J.M. and Cenatiempo,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (14-APR-1999) Biologie Moleculaire, CNRS ESA 6031, 40
+            avenue du recteur Pineau, Poitiers 86022, France
+FEATURES             Location/Qualifiers
+     source          1..1569
+                     /organism="Leuconostoc mesenteroides"
+                     /mol_type="genomic DNA"
+                     /strain="Y105"
+                     /db_xref="taxon:1245"
+                     /plasmid="pHY30"
+     gene            <1..264
+                     /gene="mesG"
+     CDS             <1..264
+                     /gene="mesG"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="MesG"
+                     /protein_id="AAD54222.1"
+                     /translation="TSMFVKINLYELYELLYDSCRNFTSMLYSVLKNNNITVHYFDID
+                     VFDPEVFKNINVFQVPISICNAKKTMKFYGNYSAVTSWIVGTR"
+     gene            427..588
+                     /gene="mesB"
+     CDS             427..588
+                     /gene="mesB"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="mesentericin B105"
+                     /protein_id="AAD54223.1"
+                     /translation="MQDKTNFKILSDSELSTISGGKGVLGWLSMASSALTGPQQPNSP
+                     WLAKIKNHK"
+     gene            704..1186
+                     /gene="mesH"
+     CDS             704..1186
+                     /gene="mesH"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="MesH"
+                     /protein_id="AAD54224.1"
+                     /translation="MAKYIVSEKVKYLFWGIVTTVFYLVVRLISIRVINNDMIPVIIS
+                     QFLTILFAFIVNKFLVFSQVQKKNIFVQFMNFVLGRLVVAGLDFFLTYIMIDRYSSIL
+                     IHLLFLNKINFQAIPFSIPIVHAIIPNSVQLNSFIVIILIQIIAIIVNYIISKYLIFD
+                     "
+     gene            complement(1279..1542)
+                     /gene="mesF"
+     CDS             complement(1279..1542)
+                     /gene="mesF"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="MesF"
+                     /protein_id="AAD54225.1"
+                     /translation="MIEFSKFTILKKQKLSEIIGGNSNDIGPNLKKYRKLANISQFKL
+                     GQLLNVNQVTVSHYESGQRVPDIDSLIKISDILDVDIKDILSI"
+ORIGIN      
+        1 actagtatgt tcgtcaaaat aaatttgtac gagttgtatg aactgcttta cgatagttgt
+       61 cgtaatttta cttcaatgtt gtatagtgta cttaaaaata ataacattac agttcattat
+      121 tttgatattg atgtgtttga tcctgaagta tttaaaaata ttaacgtttt tcaagttcct
+      181 atttctattt gcaacgcaaa gaaaacaatg aaattttatg gtaattattc agctgtaaca
+      241 tcttggattg tgggaacaag ataacaatta gtccgaatta ttgattgatg agcagtttat
+      301 atttatagac attcaaagat acaagataaa ccataatttt ttgtgatggt aataacaaat
+      361 tgttataatt gtttatcata aattaagata taatataact attctactag gaaagaggta
+      421 aattaaatgc aagataaaac aaatttcaaa atcctttcag attctgaact tagtactatt
+      481 agtggtggta aaggtgtatt gggatggctt tcaatggctt cgtctgctct tacgggtcct
+      541 caacaaccaa attctccttg gctagcaaag atcaagaacc acaaataaag atataaataa
+      601 taaagccgat aacttttatt aacagttatc ggctttatta tttatatgcg tttaatttat
+      661 tatatggtaa aattaactat tattgattta aaaggaaatt agtatggcta agtatattgt
+      721 ctctgaaaaa gttaaatatc ttttttgggg aattgtaaca actgtgtttt atttagtggt
+      781 tcgtttaatt tcgattagag tgataaataa tgatatgatt cctgttatta tttcgcaatt
+      841 tttgactatt ttatttgctt ttatcgtaaa taaatttttg gtcttttctc aggttcagaa
+      901 gaaaaatatc tttgttcagt ttatgaattt tgttttaggt agattggtcg tggctggact
+      961 ggattttttt ttgacatata ttatgataga taggtatagt tcgatactta ttcatctgtt
+     1021 atttcttaac aaaattaatt ttcaagcaat tccattttct ataccaatag tacacgctat
+     1081 tattccgaat agtgttcaat taaatagttt tatagtaatt atactaattc aaataattgc
+     1141 tattattgta aactatataa tttctaaata tctaattttt gattaagtac caattttgct
+     1201 tgttttaaat tcgattactt ggattttaaa agaagtgaaa taagttaaat atatagacta
+     1261 attattaaaa gccaaatatt atattgataa tatgtcttta atgtcaacgt ctaaaatatc
+     1321 tgaaattttg attaatgaat caatatcagg gactctttga ccagattcgt agtgggatac
+     1381 tgtgacctga ttaacattta gtaattgacc gagcttaaat tggcttatat tagctaattt
+     1441 tctgtatttt tttaaatttg gccctatatc attagagttt ccaccaatga tttcagataa
+     1501 tttttgtttt tttagtatgg taaatttaga aaattctatc atataaaagt cctttactca
+     1561 caacgcaga
+//
+
